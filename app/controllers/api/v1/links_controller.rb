@@ -3,3 +3,4 @@ class Api::V1::LinksController < ApplicationController
     @links = URLockBoxService.links
     render json: @links
   end
+end

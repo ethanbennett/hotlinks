@@ -1,0 +1,7 @@
+<h1>Smokin Hot Reads</h1>
+
+<% @links.each do |link| %>
+Title: <%= link["title"] %></br>
+Url: <%= link["url"] %></br>
+Read Count: <%= link["count"] %></br></br></br>
+<% end %>
